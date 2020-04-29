@@ -13,8 +13,8 @@ fi
 
 TOP=$(realpath ../../..)
 
-export KBUILD_BUILD_USER=grapheneos
-export KBUILD_BUILD_HOST=grapheneos
+export KBUILD_BUILD_USER=user
+export KBUILD_BUILD_HOST=host
 
 PATH="$TOP/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin:$PATH"
 PATH="$TOP/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin:$PATH"
